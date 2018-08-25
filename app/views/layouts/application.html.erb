@@ -6,9 +6,18 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
-
+<body style="background-color: lightgrey;">
+  <ul>
+    <li><a href="">Menu 1</a></li>
+    <li><a href="">Menu 2</a></li>
+    <li><a href="" id="click">Drop 1</a>
+      <div id="drop">
+        <a href="">Sub 1</a>
+        <a href="">Sub 2</a>
+        <a href="">Sub 3</a>
+      </div>
+    </li>
+  </ul>
 <%= yield %>
-
 </body>
 </html>
