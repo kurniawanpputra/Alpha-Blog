@@ -21,17 +21,17 @@ body{
   padding: 0;
   margin: 0;
 }
-ul{
+.ul{
   background-color: white;
   list-style: none;
   overflow: hidden;
   padding: 0;
   margin: 0;
 }
-li {
+.li {
   float: left;
 }
-li a{
+.li a{
   text-decoration: none;
   padding: 15px 20px;
   display: block;
@@ -39,4 +39,7 @@ li a{
 }
 #img{
   border-radius: 100px;
+}
+#msg{
+  color: red;
 }

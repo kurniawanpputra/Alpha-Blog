@@ -7,11 +7,16 @@
   <%= csrf_meta_tags %>
 </head>
 <body style="text-align: center;">
-  <ul>
-    <li><a href="">Menu 1</a></li>
-    <li><a href="">Menu 2</a></li>
-    <li><a href="">Menu 3</a></li>
-  </ul>
-<%= yield %>
+  <div class="ul">
+    <li class="li"><a href="">Menu 1</a></li>
+    <li class="li"><a href="">Menu 2</a></li>
+    <li class="li"><a href="">Menu 3</a></li>
+  </div>
+  <% flash.each do |name, msg| %>
+    <ul>
+      <li><%= msg %></li>
+    </ul>
+  <% end %>
+  <%= yield %>
 </body>
 </html>
