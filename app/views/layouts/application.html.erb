@@ -1,22 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>AlphaBlog</title>
+  <title>Alpha Blog</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body style="background-color: lightgrey;">
+<body style="text-align: center;">
   <ul>
     <li><a href="">Menu 1</a></li>
     <li><a href="">Menu 2</a></li>
-    <li><a href="" id="click">Drop 1</a>
-      <div id="drop">
-        <a href="">Sub 1</a>
-        <a href="">Sub 2</a>
-        <a href="">Sub 3</a>
-      </div>
-    </li>
+    <li><a href="">Menu 3</a></li>
   </ul>
 <%= yield %>
 </body>
