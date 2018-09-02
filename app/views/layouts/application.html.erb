@@ -13,11 +13,7 @@
     <li class="li"><%= link_to 'Articles', articles_path %></li>
     <li class="li"><%= link_to 'Write', new_article_path %></li>
   </div>
-  <% flash.each do |name, msg| %>
-    <ul>
-      <li><%= msg %></li>
-    </ul>
-  <% end %>
+  <%= render 'layouts/messages' %>
   <%= yield %>
 </body>
 </html>
