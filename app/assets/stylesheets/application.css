@@ -37,6 +37,10 @@ body{
   display: block;
   color: orange;
 }
+.li a:hover{
+  background-color: orange;
+  color: white;
+}
 #img{
   border-radius: 100px;
 }
