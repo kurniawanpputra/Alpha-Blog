@@ -23,6 +23,7 @@ body{
   margin: 0;
 }
 #img{
+  border: 2.5px solid orange;
   border-radius: 100px;
   margin-bottom: 10px;
 }
