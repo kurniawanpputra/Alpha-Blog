@@ -1,2 +1,15 @@
+$navbar-default-bg: lightyellow;
+$jumbotron-bg: lightyellow;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.75em;
+  color: orange;
+}
+li:hover{
+  text-decoration: underline;
+}

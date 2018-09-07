@@ -6,14 +6,11 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body style="text-align: center;">
-  <div class="ul">
-    <li class="li"><a href="/">Home</a></li>
-    <li class="li"><a href="/about">About</a></li>
-    <li class="li"><%= link_to 'Articles', articles_path %></li>
-    <li class="li"><%= link_to 'Write', new_article_path %></li>
-  </div>
+<body>
+  <%= render 'layouts/navigation'%>
   <%= render 'layouts/messages' %>
-  <%= yield %>
+  <div class="container">
+    <%= yield %>
+  </div>
 </body>
 </html>

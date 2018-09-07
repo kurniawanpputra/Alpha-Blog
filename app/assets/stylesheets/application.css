@@ -18,32 +18,11 @@ body{
   background-color: orange;
   box-sizing: border-box;
   font-family: courier;
+  text-align: center;
   padding: 0;
   margin: 0;
-}
-.ul{
-  background-color: white;
-  list-style: none;
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
-}
-.li {
-  float: left;
-}
-.li a{
-  text-decoration: none;
-  padding: 15px 20px;
-  display: block;
-  color: orange;
-}
-.li a:hover{
-  background-color: orange;
-  color: white;
 }
 #img{
   border-radius: 100px;
-}
-#msg{
-  color: red;
+  margin-bottom: 10px;
 }
