@@ -16,3 +16,17 @@ li:hover{
 th{
   text-align:center;
 }
+.jumbotron{
+  background-image: url('Psychedelic 1.jpg');
+  background-size: cover;
+  height: 390px;
+}
+.jumbotron p{
+  background-color: lightyellow;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+hr{
+  margin-top: 0;
+  border: 1px solid lightyellow;  
+}
