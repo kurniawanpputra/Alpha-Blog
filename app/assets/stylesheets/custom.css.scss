@@ -1,5 +1,6 @@
 $navbar-default-bg: lightyellow;
 $jumbotron-bg: lightyellow;
+$table-bg: lightyellow;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -28,7 +29,4 @@ th{
 }
 hr{
   border: 1px solid lightyellow;  
-}
-table{
-  background-color: lightyellow;
 }
