@@ -15,9 +15,9 @@
  */
 
 body{
+  font-family: 'Montserrat', sans-serif;
   background-color: orange;
   box-sizing: border-box;
-  font-family: courier;
   text-align: center;
   padding: 0;
   margin: 0;
