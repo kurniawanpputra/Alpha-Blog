@@ -38,3 +38,13 @@ div.panel{
 .description{
   margin-top: 0;
 }
+.article-title{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.article-body{
+  border-bottom: 1px solid orange;
+  border-top: 1px solid orange;
+  padding: 15px 0 15px 0;
+  margin: 10px 0 10px 0;
+}
