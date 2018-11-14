@@ -1,6 +1,9 @@
-<h2 align="center">Title: <%= @article.title %></h2>
+<h2 align="center"><%= @article.title %></h2>
 <div class="well col-xs-8 col-xs-offset-2">
-  <h4 class="center description">Description: </h4>
+  <b>
+    Created by: <%= @article.user.username %> on 
+    <%= @article.created_at.to_date %>
+  </b>
   <hr>
   <%= simple_format(@article.description) %>
   <hr>
